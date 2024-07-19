@@ -1,0 +1,35 @@
+<mat-card class="home mat-elevation-z3">
+  <mat-card-title class="title">
+    CDB
+  </mat-card-title>
+  <mat-card-subtitle class="subtitle">
+      Simulação de rendimentos do seu CDB
+  </mat-card-subtitle>
+  <br><br>
+
+  <mat-card-content>
+      <form (ngSubmit)="calculateInvestment()">        
+          <tr>
+            <td>
+              <label for="initialValue">Valor Inicial:</label>
+              <input type="number" id="initialValue" [(ngModel)]="investmentRequest.initialValue" name="initialValue" required>
+            </td>
+            <br><br>      
+            <td>
+              <label for="months">Prazo (meses):</label>
+              <input type="number" id="months" [(ngModel)]="investmentRequest.months" name="months" required>
+            </td>
+            <br><br>
+            <td>
+              <button type="submit">Calcular</button>
+            </td>            
+          </tr>      
+      </form>
+      <div *ngIf="investmentResult">
+        <h2>Resultado</h2>
+        <p>Status: {{ investmentResult.Result }}</p> 
+        <p>Valor Bruto: {{ investmentResult.ValorBruto | number:'1.4-4' }}</p>
+        <p>Valor Líquido: {{ investmentResult.ValorLiquido | number:'1.4-4' }}</p>
+      </div>
+  </mat-card-content>
+</mat-card>  
