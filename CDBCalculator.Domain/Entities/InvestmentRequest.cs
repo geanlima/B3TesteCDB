@@ -1,4 +1,4 @@
-﻿namespace CDBCalculator.Api.Core.Entities;
+﻿namespace CDBCalculator.Domain.Entities;
 
 public class InvestmentRequest
 {

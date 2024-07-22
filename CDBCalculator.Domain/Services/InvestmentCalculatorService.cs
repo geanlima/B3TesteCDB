@@ -1,16 +1,22 @@
-﻿using CDBCalculator.Api.Core.Entities;
-using CDBCalculator.Api.Core.Interfaces;
+﻿using CDBCalculator.Domain.Entities;
+using CDBCalculator.Domain.Interfaces;
+using System.ComponentModel.DataAnnotations;
 
-namespace CDBCalculator.Api.Application.Services;
+namespace CDBCalculator.Domain.Services;
 
 public class InvestmentCalculatorService : IInvestmentCalculator
 {
     private const decimal CDI = 0.009m;
     private const decimal TB = 1.08m;
+    private readonly IInvestmentRequestValidator _validator;
 
+    public InvestmentCalculatorService(IInvestmentRequestValidator validator)
+    {
+        _validator = validator;
+    }
     public InvestmentResult Calculate(InvestmentRequest request)
     {
-        validate(request);
+        _validator.Validate(request);
 
         decimal grossResult = CalculateGrossResult(request.InitialValue, request.Months);
         decimal netResult = CalculateNetResult(request.InitialValue, grossResult, request.Months);
@@ -21,18 +27,6 @@ public class InvestmentCalculatorService : IInvestmentCalculator
             NetResult = netResult,
             Result = "Sucesso"
         };
-    }
-
-    private void validate(InvestmentRequest request)
-    {
-        if (request == null)
-            throw new ArgumentNullException("Os dados de entrada não foram informados");
-
-        if (request.InitialValue <= 0)
-            throw new ArgumentException("O valor inicial deve ser maior que zero");
-
-        if (request.Months <= 1)
-            throw new ArgumentException("O prazo deverá ser maior que 1 mês");
     }
 
     private decimal CalculateGrossResult(decimal initialValue, int months)

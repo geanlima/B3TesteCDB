@@ -1,8 +1,6 @@
-﻿using Newtonsoft.Json;
-using System.ComponentModel.DataAnnotations;
-using System.Text.Json.Serialization;
+﻿using System.Text.Json.Serialization;
 
-namespace CDBCalculator.Api.Core.Entities;
+namespace CDBCalculator.Domain.Entities;
 
 public class InvestmentResult
 {

@@ -1,0 +1,12 @@
+C:\Projetos\GSL\B3\Teste\CDBCalculator\CDBCalculator.Domain\bin\Debug\net6.0\CDBCalculator.Domain.deps.json
+C:\Projetos\GSL\B3\Teste\CDBCalculator\CDBCalculator.Domain\bin\Debug\net6.0\CDBCalculator.Domain.dll
+C:\Projetos\GSL\B3\Teste\CDBCalculator\CDBCalculator.Domain\bin\Debug\net6.0\CDBCalculator.Domain.pdb
+C:\Projetos\GSL\B3\Teste\CDBCalculator\CDBCalculator.Domain\obj\Debug\net6.0\CDBCalculator.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\GSL\B3\Teste\CDBCalculator\CDBCalculator.Domain\obj\Debug\net6.0\CDBCalculator.Domain.AssemblyInfoInputs.cache
+C:\Projetos\GSL\B3\Teste\CDBCalculator\CDBCalculator.Domain\obj\Debug\net6.0\CDBCalculator.Domain.AssemblyInfo.cs
+C:\Projetos\GSL\B3\Teste\CDBCalculator\CDBCalculator.Domain\obj\Debug\net6.0\CDBCalculator.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos\GSL\B3\Teste\CDBCalculator\CDBCalculator.Domain\obj\Debug\net6.0\CDBCalculator.Domain.sourcelink.json
+C:\Projetos\GSL\B3\Teste\CDBCalculator\CDBCalculator.Domain\obj\Debug\net6.0\CDBCalculator.Domain.dll
+C:\Projetos\GSL\B3\Teste\CDBCalculator\CDBCalculator.Domain\obj\Debug\net6.0\refint\CDBCalculator.Domain.dll
+C:\Projetos\GSL\B3\Teste\CDBCalculator\CDBCalculator.Domain\obj\Debug\net6.0\CDBCalculator.Domain.pdb
+C:\Projetos\GSL\B3\Teste\CDBCalculator\CDBCalculator.Domain\obj\Debug\net6.0\ref\CDBCalculator.Domain.dll

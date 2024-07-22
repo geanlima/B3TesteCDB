@@ -3,28 +3,52 @@
   "WorkspaceRootPath": "C:\\Projetos\\GSL\\B3\\Teste\\CDBCalculator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{479109B6-7369-4CF7-AC7B-B88E2B3801A8}|CDBCalculator.Api\\CDBCalculator.Api.csproj|c:\\projetos\\gsl\\b3\\teste\\cdbcalculator\\cdbcalculator.api\\application\\services\\investmentcalculatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{479109B6-7369-4CF7-AC7B-B88E2B3801A8}|CDBCalculator.Api\\CDBCalculator.Api.csproj|solutionrelative:cdbcalculator.api\\application\\services\\investmentcalculatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7819E34-FB34-41CF-B548-1176FACDE4C3}|CDBCalculator.Test\\CDBCalculator.Test.csproj|c:\\projetos\\gsl\\b3\\teste\\cdbcalculator\\cdbcalculator.test\\validators\\investmentrequestvalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7819E34-FB34-41CF-B548-1176FACDE4C3}|CDBCalculator.Test\\CDBCalculator.Test.csproj|solutionrelative:cdbcalculator.test\\validators\\investmentrequestvalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7819E34-FB34-41CF-B548-1176FACDE4C3}|CDBCalculator.Test\\CDBCalculator.Test.csproj|c:\\projetos\\gsl\\b3\\teste\\cdbcalculator\\cdbcalculator.test\\investmentcalculatorservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7819E34-FB34-41CF-B548-1176FACDE4C3}|CDBCalculator.Test\\CDBCalculator.Test.csproj|solutionrelative:cdbcalculator.test\\investmentcalculatorservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFDBC553-F77B-4689-8D21-CE85A8AC8AF0}|CDBCalculatorApp\\CDBCalculatorApp.esproj|c:\\projetos\\gsl\\b3\\teste\\cdbcalculator\\cdbcalculatorapp\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BFDBC553-F77B-4689-8D21-CE85A8AC8AF0}|CDBCalculatorApp\\CDBCalculatorApp.esproj|solutionrelative:cdbcalculatorapp\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{479109B6-7369-4CF7-AC7B-B88E2B3801A8}|CDBCalculator.Api\\CDBCalculator.Api.csproj|c:\\projetos\\gsl\\b3\\teste\\cdbcalculator\\cdbcalculator.api\\core\\entities\\investmentresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{479109B6-7369-4CF7-AC7B-B88E2B3801A8}|CDBCalculator.Api\\CDBCalculator.Api.csproj|solutionrelative:cdbcalculator.api\\core\\entities\\investmentresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFDBC553-F77B-4689-8D21-CE85A8AC8AF0}|CDBCalculatorApp\\CDBCalculatorApp.esproj|c:\\projetos\\gsl\\b3\\teste\\cdbcalculator\\cdbcalculatorapp\\src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{BFDBC553-F77B-4689-8D21-CE85A8AC8AF0}|CDBCalculatorApp\\CDBCalculatorApp.esproj|solutionrelative:cdbcalculatorapp\\src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{F7819E34-FB34-41CF-B548-1176FACDE4C3}|CDBCalculator.Test\\CDBCalculator.Test.csproj|c:\\projetos\\gsl\\b3\\teste\\cdbcalculator\\cdbcalculator.test\\services\\investmentcalculatorservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7819E34-FB34-41CF-B548-1176FACDE4C3}|CDBCalculator.Test\\CDBCalculator.Test.csproj|solutionrelative:cdbcalculator.test\\services\\investmentcalculatorservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{479109B6-7369-4CF7-AC7B-B88E2B3801A8}|CDBCalculator.Api\\CDBCalculator.Api.csproj|c:\\projetos\\gsl\\b3\\teste\\cdbcalculator\\cdbcalculator.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{479109B6-7369-4CF7-AC7B-B88E2B3801A8}|CDBCalculator.Api\\CDBCalculator.Api.csproj|solutionrelative:cdbcalculator.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{479109B6-7369-4CF7-AC7B-B88E2B3801A8}|CDBCalculator.Api\\CDBCalculator.Api.csproj|c:\\projetos\\gsl\\b3\\teste\\cdbcalculator\\cdbcalculator.api\\controllers\\investmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{479109B6-7369-4CF7-AC7B-B88E2B3801A8}|CDBCalculator.Api\\CDBCalculator.Api.csproj|solutionrelative:cdbcalculator.api\\controllers\\investmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE40F8CD-48EF-4706-9C8F-DA90E895CDA8}|CDBCalculator.Domain\\CDBCalculator.Domain.csproj|c:\\projetos\\gsl\\b3\\teste\\cdbcalculator\\cdbcalculator.domain\\services\\investmentcalculatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE40F8CD-48EF-4706-9C8F-DA90E895CDA8}|CDBCalculator.Domain\\CDBCalculator.Domain.csproj|solutionrelative:cdbcalculator.domain\\services\\investmentcalculatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE40F8CD-48EF-4706-9C8F-DA90E895CDA8}|CDBCalculator.Domain\\CDBCalculator.Domain.csproj|c:\\projetos\\gsl\\b3\\teste\\cdbcalculator\\cdbcalculator.domain\\validators\\investmentrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE40F8CD-48EF-4706-9C8F-DA90E895CDA8}|CDBCalculator.Domain\\CDBCalculator.Domain.csproj|solutionrelative:cdbcalculator.domain\\validators\\investmentrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE40F8CD-48EF-4706-9C8F-DA90E895CDA8}|CDBCalculator.Domain\\CDBCalculator.Domain.csproj|c:\\projetos\\gsl\\b3\\teste\\cdbcalculator\\cdbcalculator.domain\\interfaces\\iinvestmentrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE40F8CD-48EF-4706-9C8F-DA90E895CDA8}|CDBCalculator.Domain\\CDBCalculator.Domain.csproj|solutionrelative:cdbcalculator.domain\\interfaces\\iinvestmentrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE40F8CD-48EF-4706-9C8F-DA90E895CDA8}|CDBCalculator.Domain\\CDBCalculator.Domain.csproj|c:\\projetos\\gsl\\b3\\teste\\cdbcalculator\\cdbcalculator.domain\\interfaces\\iinvestmentcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE40F8CD-48EF-4706-9C8F-DA90E895CDA8}|CDBCalculator.Domain\\CDBCalculator.Domain.csproj|solutionrelative:cdbcalculator.domain\\interfaces\\iinvestmentcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE40F8CD-48EF-4706-9C8F-DA90E895CDA8}|CDBCalculator.Domain\\CDBCalculator.Domain.csproj|c:\\projetos\\gsl\\b3\\teste\\cdbcalculator\\cdbcalculator.domain\\entities\\investmentresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE40F8CD-48EF-4706-9C8F-DA90E895CDA8}|CDBCalculator.Domain\\CDBCalculator.Domain.csproj|solutionrelative:cdbcalculator.domain\\entities\\investmentresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE40F8CD-48EF-4706-9C8F-DA90E895CDA8}|CDBCalculator.Domain\\CDBCalculator.Domain.csproj|c:\\projetos\\gsl\\b3\\teste\\cdbcalculator\\cdbcalculator.domain\\entities\\investmentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE40F8CD-48EF-4706-9C8F-DA90E895CDA8}|CDBCalculator.Domain\\CDBCalculator.Domain.csproj|solutionrelative:cdbcalculator.domain\\entities\\investmentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{479109B6-7369-4CF7-AC7B-B88E2B3801A8}|CDBCalculator.Api\\CDBCalculator.Api.csproj|c:\\projetos\\gsl\\b3\\teste\\cdbcalculator\\cdbcalculator.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{479109B6-7369-4CF7-AC7B-B88E2B3801A8}|CDBCalculator.Api\\CDBCalculator.Api.csproj|solutionrelative:cdbcalculator.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFDBC553-F77B-4689-8D21-CE85A8AC8AF0}|CDBCalculatorApp\\CDBCalculatorApp.esproj|c:\\projetos\\gsl\\b3\\teste\\cdbcalculator\\cdbcalculatorapp\\src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{BFDBC553-F77B-4689-8D21-CE85A8AC8AF0}|CDBCalculatorApp\\CDBCalculatorApp.esproj|solutionrelative:cdbcalculatorapp\\src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,57 +110,150 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "app.component.html",
-              "DocumentMoniker": "C:\\Projetos\\GSL\\B3\\Teste\\CDBCalculator\\CDBCalculatorApp\\src\\app\\app.component.html",
-              "RelativeDocumentMoniker": "CDBCalculatorApp\\src\\app\\app.component.html",
-              "ToolTip": "C:\\Projetos\\GSL\\B3\\Teste\\CDBCalculator\\CDBCalculatorApp\\src\\app\\app.component.html",
-              "RelativeToolTip": "CDBCalculatorApp\\src\\app\\app.component.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-07-19T14:29:22.417Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "InvestmentCalculatorServiceTests.cs",
-              "DocumentMoniker": "C:\\Projetos\\GSL\\B3\\Teste\\CDBCalculator\\CDBCalculator.Test\\InvestmentCalculatorServiceTests.cs",
-              "RelativeDocumentMoniker": "CDBCalculator.Test\\InvestmentCalculatorServiceTests.cs",
-              "ToolTip": "C:\\Projetos\\GSL\\B3\\Teste\\CDBCalculator\\CDBCalculator.Test\\InvestmentCalculatorServiceTests.cs",
-              "RelativeToolTip": "CDBCalculator.Test\\InvestmentCalculatorServiceTests.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAgwCgAAAAIAAAA",
+              "DocumentMoniker": "C:\\Projetos\\GSL\\B3\\Teste\\CDBCalculator\\CDBCalculator.Test\\Services\\InvestmentCalculatorServiceTests.cs",
+              "RelativeDocumentMoniker": "CDBCalculator.Test\\Services\\InvestmentCalculatorServiceTests.cs",
+              "ToolTip": "C:\\Projetos\\GSL\\B3\\Teste\\CDBCalculator\\CDBCalculator.Test\\Services\\InvestmentCalculatorServiceTests.cs",
+              "RelativeToolTip": "CDBCalculator.Test\\Services\\InvestmentCalculatorServiceTests.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAlwCwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T13:43:01.592Z",
+              "WhenOpened": "2024-07-22T17:59:41.021Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "InvestmentCalculatorService.cs",
-              "DocumentMoniker": "C:\\Projetos\\GSL\\B3\\Teste\\CDBCalculator\\CDBCalculator.Api\\Application\\Services\\InvestmentCalculatorService.cs",
-              "RelativeDocumentMoniker": "CDBCalculator.Api\\Application\\Services\\InvestmentCalculatorService.cs",
-              "ToolTip": "C:\\Projetos\\GSL\\B3\\Teste\\CDBCalculator\\CDBCalculator.Api\\Application\\Services\\InvestmentCalculatorService.cs",
-              "RelativeToolTip": "CDBCalculator.Api\\Application\\Services\\InvestmentCalculatorService.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAhwB8AAAAMAAAA",
+              "Title": "InvestmentRequestValidatorTests.cs",
+              "DocumentMoniker": "C:\\Projetos\\GSL\\B3\\Teste\\CDBCalculator\\CDBCalculator.Test\\Validators\\InvestmentRequestValidatorTests.cs",
+              "RelativeDocumentMoniker": "CDBCalculator.Test\\Validators\\InvestmentRequestValidatorTests.cs",
+              "ToolTip": "C:\\Projetos\\GSL\\B3\\Teste\\CDBCalculator\\CDBCalculator.Test\\Validators\\InvestmentRequestValidatorTests.cs",
+              "RelativeToolTip": "CDBCalculator.Test\\Validators\\InvestmentRequestValidatorTests.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAhwBIAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T13:20:48.997Z",
+              "WhenOpened": "2024-07-22T17:58:37.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InvestmentCalculatorService.cs",
+              "DocumentMoniker": "C:\\Projetos\\GSL\\B3\\Teste\\CDBCalculator\\CDBCalculator.Domain\\Services\\InvestmentCalculatorService.cs",
+              "RelativeDocumentMoniker": "CDBCalculator.Domain\\Services\\InvestmentCalculatorService.cs",
+              "ToolTip": "C:\\Projetos\\GSL\\B3\\Teste\\CDBCalculator\\CDBCalculator.Domain\\Services\\InvestmentCalculatorService.cs",
+              "RelativeToolTip": "CDBCalculator.Domain\\Services\\InvestmentCalculatorService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T17:45:06.759Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "InvestmentResult.cs",
-              "DocumentMoniker": "C:\\Projetos\\GSL\\B3\\Teste\\CDBCalculator\\CDBCalculator.Api\\Core\\Entities\\InvestmentResult.cs",
-              "RelativeDocumentMoniker": "CDBCalculator.Api\\Core\\Entities\\InvestmentResult.cs",
-              "ToolTip": "C:\\Projetos\\GSL\\B3\\Teste\\CDBCalculator\\CDBCalculator.Api\\Core\\Entities\\InvestmentResult.cs",
-              "RelativeToolTip": "CDBCalculator.Api\\Core\\Entities\\InvestmentResult.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAgwA8AAAAYAAAA",
+              "Title": "InvestmentController.cs",
+              "DocumentMoniker": "C:\\Projetos\\GSL\\B3\\Teste\\CDBCalculator\\CDBCalculator.Api\\Controllers\\InvestmentController.cs",
+              "RelativeDocumentMoniker": "CDBCalculator.Api\\Controllers\\InvestmentController.cs",
+              "ToolTip": "C:\\Projetos\\GSL\\B3\\Teste\\CDBCalculator\\CDBCalculator.Api\\Controllers\\InvestmentController.cs",
+              "RelativeToolTip": "CDBCalculator.Api\\Controllers\\InvestmentController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAUwCYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T13:06:22.012Z"
+              "WhenOpened": "2024-07-22T17:27:29.501Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projetos\\GSL\\B3\\Teste\\CDBCalculator\\CDBCalculator.Api\\Program.cs",
+              "RelativeDocumentMoniker": "CDBCalculator.Api\\Program.cs",
+              "ToolTip": "C:\\Projetos\\GSL\\B3\\Teste\\CDBCalculator\\CDBCalculator.Api\\Program.cs",
+              "RelativeToolTip": "CDBCalculator.Api\\Program.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAApwCkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T17:37:44.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InvestmentRequestValidator.cs",
+              "DocumentMoniker": "C:\\Projetos\\GSL\\B3\\Teste\\CDBCalculator\\CDBCalculator.Domain\\Validators\\InvestmentRequestValidator.cs",
+              "RelativeDocumentMoniker": "CDBCalculator.Domain\\Validators\\InvestmentRequestValidator.cs",
+              "ToolTip": "C:\\Projetos\\GSL\\B3\\Teste\\CDBCalculator\\CDBCalculator.Domain\\Validators\\InvestmentRequestValidator.cs",
+              "RelativeToolTip": "CDBCalculator.Domain\\Validators\\InvestmentRequestValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T17:50:36.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IInvestmentRequestValidator.cs",
+              "DocumentMoniker": "C:\\Projetos\\GSL\\B3\\Teste\\CDBCalculator\\CDBCalculator.Domain\\Interfaces\\IInvestmentRequestValidator.cs",
+              "RelativeDocumentMoniker": "CDBCalculator.Domain\\Interfaces\\IInvestmentRequestValidator.cs",
+              "ToolTip": "C:\\Projetos\\GSL\\B3\\Teste\\CDBCalculator\\CDBCalculator.Domain\\Interfaces\\IInvestmentRequestValidator.cs",
+              "RelativeToolTip": "CDBCalculator.Domain\\Interfaces\\IInvestmentRequestValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T17:51:05.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IInvestmentCalculator.cs",
+              "DocumentMoniker": "C:\\Projetos\\GSL\\B3\\Teste\\CDBCalculator\\CDBCalculator.Domain\\Interfaces\\IInvestmentCalculator.cs",
+              "RelativeDocumentMoniker": "CDBCalculator.Domain\\Interfaces\\IInvestmentCalculator.cs",
+              "ToolTip": "C:\\Projetos\\GSL\\B3\\Teste\\CDBCalculator\\CDBCalculator.Domain\\Interfaces\\IInvestmentCalculator.cs",
+              "RelativeToolTip": "CDBCalculator.Domain\\Interfaces\\IInvestmentCalculator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T17:43:49.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InvestmentResult.cs",
+              "DocumentMoniker": "C:\\Projetos\\GSL\\B3\\Teste\\CDBCalculator\\CDBCalculator.Domain\\Entities\\InvestmentResult.cs",
+              "RelativeDocumentMoniker": "CDBCalculator.Domain\\Entities\\InvestmentResult.cs",
+              "ToolTip": "C:\\Projetos\\GSL\\B3\\Teste\\CDBCalculator\\CDBCalculator.Domain\\Entities\\InvestmentResult.cs",
+              "RelativeToolTip": "CDBCalculator.Domain\\Entities\\InvestmentResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T17:43:03.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InvestmentRequest.cs",
+              "DocumentMoniker": "C:\\Projetos\\GSL\\B3\\Teste\\CDBCalculator\\CDBCalculator.Domain\\Entities\\InvestmentRequest.cs",
+              "RelativeDocumentMoniker": "CDBCalculator.Domain\\Entities\\InvestmentRequest.cs",
+              "ToolTip": "C:\\Projetos\\GSL\\B3\\Teste\\CDBCalculator\\CDBCalculator.Domain\\Entities\\InvestmentRequest.cs",
+              "RelativeToolTip": "CDBCalculator.Domain\\Entities\\InvestmentRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T17:42:23.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Projetos\\GSL\\B3\\Teste\\CDBCalculator\\CDBCalculator.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "CDBCalculator.Api\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Projetos\\GSL\\B3\\Teste\\CDBCalculator\\CDBCalculator.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "CDBCalculator.Api\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-22T17:36:59.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "app.component.ts",
               "DocumentMoniker": "C:\\Projetos\\GSL\\B3\\Teste\\CDBCalculator\\CDBCalculatorApp\\src\\app\\app.component.ts",
               "RelativeDocumentMoniker": "CDBCalculatorApp\\src\\app\\app.component.ts",
@@ -145,18 +262,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2024-07-19T16:36:08.489Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Projetos\\GSL\\B3\\Teste\\CDBCalculator\\CDBCalculator.Api\\Program.cs",
-              "RelativeDocumentMoniker": "CDBCalculator.Api\\Program.cs",
-              "ToolTip": "C:\\Projetos\\GSL\\B3\\Teste\\CDBCalculator\\CDBCalculator.Api\\Program.cs",
-              "RelativeToolTip": "CDBCalculator.Api\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T13:32:51.67Z"
             }
           ]
         },
@@ -182,11 +287,15 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }

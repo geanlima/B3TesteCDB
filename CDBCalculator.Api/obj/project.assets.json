@@ -326,6 +326,16 @@
             "related": ".xml"
           }
         }
+      },
+      "CDBCalculator.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CDBCalculator.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CDBCalculator.Domain.dll": {}
+        }
       }
     }
   },
@@ -938,10 +948,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "CDBCalculator.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CDBCalculator.Domain/CDBCalculator.Domain.csproj",
+      "msbuildProject": "../CDBCalculator.Domain/CDBCalculator.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "CDBCalculator.Domain >= 1.0.0",
       "Microsoft.AspNetCore.Cors >= 2.1.1",
       "Newtonsoft.Json >= 13.0.3",
       "Swashbuckle.AspNetCore >= 6.5.0"
@@ -981,7 +997,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projetos\\GSL\\B3\\Teste\\CDBCalculator\\CDBCalculator.Domain\\CDBCalculator.Domain.csproj": {
+              "projectPath": "C:\\Projetos\\GSL\\B3\\Teste\\CDBCalculator\\CDBCalculator.Domain\\CDBCalculator.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,5 +1,5 @@
-﻿using CDBCalculator.Api.Core.Entities;
-using CDBCalculator.Api.Core.Interfaces;
+﻿using CDBCalculator.Domain.Entities;
+using CDBCalculator.Domain.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CDBCalculator.Api.Controllers
@@ -20,17 +20,21 @@ namespace CDBCalculator.Api.Controllers
         {
             try
             {
-                return _investmentCalculator.Calculate(request);
+                var result = _investmentCalculator.Calculate(request);
+                return Ok(result);
             }
-            catch (ArgumentNullException ex) 
-            { 
-                return new InvestmentResult() { Result = ex.ParamName };
+            catch (ArgumentNullException ex)
+            {
+                return BadRequest(new { Message = ex.ParamName });
+            }
+            catch (ArgumentException ex)
+            {
+                return BadRequest(new { Message = ex.Message });
             }
             catch (Exception ex)
             {
-                return new InvestmentResult() { Result = ex.Message };
+                return StatusCode(500, new { Message = ex.Message });
             }
         }
-
     }
 }

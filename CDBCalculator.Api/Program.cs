@@ -1,5 +1,7 @@
-using CDBCalculator.Api.Application.Services;
-using CDBCalculator.Api.Core.Interfaces;
+
+using CDBCalculator.Domain.Interfaces;
+using CDBCalculator.Domain.Services;
+using CDBCalculator.Domain.Validators;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +10,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IInvestmentCalculator, InvestmentCalculatorService>();
+builder.Services.AddScoped<IInvestmentRequestValidator, InvestmentRequestValidator>();
+
 
 
 builder.Services.AddCors(options =>
@@ -36,4 +40,4 @@ app.UseCors("AllowAngularApp");
 
 app.MapControllers();
 
-app.Run();
+await app.RunAsync();

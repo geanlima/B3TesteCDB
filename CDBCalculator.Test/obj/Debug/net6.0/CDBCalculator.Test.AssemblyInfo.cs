@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CDBCalculator.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+447fd062b4a02ac88f4aed234dad760333c56a77")]
 [assembly: System.Reflection.AssemblyProductAttribute("CDBCalculator.Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CDBCalculator.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

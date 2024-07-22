@@ -1,6 +1,6 @@
-﻿using CDBCalculator.Api.Core.Entities;
+﻿using CDBCalculator.Domain.Entities;
 
-namespace CDBCalculator.Api.Core.Interfaces;
+namespace CDBCalculator.Domain.Interfaces;
 
 public interface IInvestmentCalculator
 {

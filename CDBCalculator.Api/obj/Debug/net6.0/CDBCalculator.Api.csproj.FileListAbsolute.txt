@@ -6,9 +6,12 @@ C:\Projetos\GSL\B3\Teste\CDBCalculator\CDBCalculator.Api\bin\Debug\net6.0\CDBCal
 C:\Projetos\GSL\B3\Teste\CDBCalculator\CDBCalculator.Api\bin\Debug\net6.0\CDBCalculator.Api.dll
 C:\Projetos\GSL\B3\Teste\CDBCalculator\CDBCalculator.Api\bin\Debug\net6.0\CDBCalculator.Api.pdb
 C:\Projetos\GSL\B3\Teste\CDBCalculator\CDBCalculator.Api\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Projetos\GSL\B3\Teste\CDBCalculator\CDBCalculator.Api\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Projetos\GSL\B3\Teste\CDBCalculator\CDBCalculator.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Projetos\GSL\B3\Teste\CDBCalculator\CDBCalculator.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Projetos\GSL\B3\Teste\CDBCalculator\CDBCalculator.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Projetos\GSL\B3\Teste\CDBCalculator\CDBCalculator.Api\bin\Debug\net6.0\CDBCalculator.Domain.dll
+C:\Projetos\GSL\B3\Teste\CDBCalculator\CDBCalculator.Api\bin\Debug\net6.0\CDBCalculator.Domain.pdb
 C:\Projetos\GSL\B3\Teste\CDBCalculator\CDBCalculator.Api\obj\Debug\net6.0\CDBCalculator.Api.csproj.AssemblyReference.cache
 C:\Projetos\GSL\B3\Teste\CDBCalculator\CDBCalculator.Api\obj\Debug\net6.0\CDBCalculator.Api.GeneratedMSBuildEditorConfig.editorconfig
 C:\Projetos\GSL\B3\Teste\CDBCalculator\CDBCalculator.Api\obj\Debug\net6.0\CDBCalculator.Api.AssemblyInfoInputs.cache
@@ -16,6 +19,7 @@ C:\Projetos\GSL\B3\Teste\CDBCalculator\CDBCalculator.Api\obj\Debug\net6.0\CDBCal
 C:\Projetos\GSL\B3\Teste\CDBCalculator\CDBCalculator.Api\obj\Debug\net6.0\CDBCalculator.Api.csproj.CoreCompileInputs.cache
 C:\Projetos\GSL\B3\Teste\CDBCalculator\CDBCalculator.Api\obj\Debug\net6.0\CDBCalculator.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Projetos\GSL\B3\Teste\CDBCalculator\CDBCalculator.Api\obj\Debug\net6.0\CDBCalculator.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Projetos\GSL\B3\Teste\CDBCalculator\CDBCalculator.Api\obj\Debug\net6.0\CDBCalculator.Api.sourcelink.json
 C:\Projetos\GSL\B3\Teste\CDBCalculator\CDBCalculator.Api\obj\Debug\net6.0\staticwebassets.build.json
 C:\Projetos\GSL\B3\Teste\CDBCalculator\CDBCalculator.Api\obj\Debug\net6.0\staticwebassets.development.json
 C:\Projetos\GSL\B3\Teste\CDBCalculator\CDBCalculator.Api\obj\Debug\net6.0\staticwebassets\msbuild.CDBCalculator.Api.Microsoft.AspNetCore.StaticWebAssets.props
@@ -30,4 +34,3 @@ C:\Projetos\GSL\B3\Teste\CDBCalculator\CDBCalculator.Api\obj\Debug\net6.0\refint
 C:\Projetos\GSL\B3\Teste\CDBCalculator\CDBCalculator.Api\obj\Debug\net6.0\CDBCalculator.Api.pdb
 C:\Projetos\GSL\B3\Teste\CDBCalculator\CDBCalculator.Api\obj\Debug\net6.0\CDBCalculator.Api.genruntimeconfig.cache
 C:\Projetos\GSL\B3\Teste\CDBCalculator\CDBCalculator.Api\obj\Debug\net6.0\ref\CDBCalculator.Api.dll
-C:\Projetos\GSL\B3\Teste\CDBCalculator\CDBCalculator.Api\bin\Debug\net6.0\Newtonsoft.Json.dll
