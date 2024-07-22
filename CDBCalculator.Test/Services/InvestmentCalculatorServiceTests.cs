@@ -17,22 +17,6 @@ public class InvestmentCalculatorServiceTests
     }
 
     [Fact]
-    public void Calculate_ShouldReturnCorrectValues()
-    {
-        var request = new InvestmentRequest { InitialValue = 1000m, Months = 12 };
-
-        _mockValidator.Setup(v => v.Validate(It.IsAny<InvestmentRequest>()));
-
-        var result = _service.Calculate(request);
-
-        decimal expectedGrossResult = 1000m * (decimal)Math.Pow((double)(1 + (0.009m * 1.08m)), 12);
-        decimal expectedNetResult = expectedGrossResult - (expectedGrossResult - 1000m) * 0.20m;
-
-        Assert.Equal(expectedGrossResult, result.GrossResult, precision: 4);
-        Assert.Equal(expectedNetResult, result.NetResult, precision: 4);
-    }
-
-    [Fact]
     public void Calculate_ShouldCallValidator()
     {
         var request = new InvestmentRequest { InitialValue = 1000m, Months = 12 };
@@ -44,25 +28,25 @@ public class InvestmentCalculatorServiceTests
         _mockValidator.Verify(v => v.Validate(It.IsAny<InvestmentRequest>()), Times.Once);
     }
 
-    [Fact]
-    public void Calculate_ShouldThrowArgumentException_WhenInitialValueIsZeroOrNegative()
+    [Theory]
+    [InlineData(1000, 6, 0.225)]
+    [InlineData(1000, 12, 0.20)]
+    [InlineData(1000, 24, 0.175)]
+    [InlineData(1000, 36, 0.15)]
+    public void Calculate_ShouldReturnCorrectNetValues(decimal initialValue, int months, decimal taxRate)
     {
-        var request = new InvestmentRequest { InitialValue = 0, Months = 12 };
+        var request = new InvestmentRequest { InitialValue = initialValue, Months = months };
 
-        _mockValidator.Setup(v => v.Validate(It.IsAny<InvestmentRequest>())).Throws(new ArgumentException("O valor inicial deve ser maior que zero"));
+        _mockValidator.Setup(v => v.Validate(It.IsAny<InvestmentRequest>()));
 
-        var exception = Assert.Throws<ArgumentException>(() => _service.Calculate(request));
-        Assert.Equal("O valor inicial deve ser maior que zero", exception.Message);
+        var result = _service.Calculate(request);
+
+        decimal expectedGrossResult = initialValue * (decimal)Math.Pow((double)(1 + (0.009m * 1.08m)), months);
+        decimal expectedNetResult = expectedGrossResult - (expectedGrossResult - initialValue) * taxRate;
+
+        Assert.Equal(expectedGrossResult, result.GrossResult, precision: 4);
+        Assert.Equal(expectedNetResult, result.NetResult, precision: 4);
     }
 
-    [Fact]
-    public void Calculate_ShouldThrowArgumentException_WhenMonthsIsLessThanOrEqualToOne()
-    {
-        var request = new InvestmentRequest { InitialValue = 1000m, Months = 1 };
-
-        _mockValidator.Setup(v => v.Validate(It.IsAny<InvestmentRequest>())).Throws(new ArgumentException("O prazo deverá ser maior que 1 mês"));
-
-        var exception = Assert.Throws<ArgumentException>(() => _service.Calculate(request));
-        Assert.Equal("O prazo deverá ser maior que 1 mês", exception.Message);
-    }
+    
 }

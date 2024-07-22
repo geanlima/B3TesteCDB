@@ -1,0 +1,65 @@
+# Ignore os arquivos de build
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.mdb
+*.log
+
+# Ignore os arquivos temporários e de logs
+*.swp
+*.user
+*.lock
+*.log
+*.pyc
+*.pyo
+.vscode/
+.vscode/*
+
+# Ignore o diretório de pacotes
+packages/
+.nuget/
+.project
+
+# Ignore arquivos específicos do Visual Studio
+.vscode
+.vscode/*
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sln.ide
+
+# Ignore os arquivos de configuração locais
+appsettings.*.json
+!appsettings.json
+
+# Ignore os arquivos de dependências do Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore arquivos do sistema operacional
+Thumbs.db
+.DS_Store
+
+# Ignore arquivos de IDE
+.idea/
+.idea/*
+.vscode/
+.vscode/*
+
+# Ignore arquivos de logs
+*.log
+
+# Ignore arquivos temporários do sistema operacional
+*.tmp
+
+# Ignore arquivos gerados pelo dotnet
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.testlog
+/.vs/CDBCalculator/FileContentIndex
