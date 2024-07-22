@@ -63,3 +63,6 @@ project.fragment.lock.json
 artifacts/
 *.testlog
 /.vs/CDBCalculator/FileContentIndex
+/CDBCalculator.Api/bin/Debug/net6.0/CDBCalculator.Api.dll
+/.vs/CDBCalculator/v17/.suo
+/.vs/CDBCalculator/v17/DocumentLayout.json
