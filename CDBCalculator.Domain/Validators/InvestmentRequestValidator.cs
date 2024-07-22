@@ -5,7 +5,7 @@ namespace CDBCalculator.Domain.Validators;
 
 public class InvestmentRequestValidator : IInvestmentRequestValidator
 {
-    public void Validate(InvestmentRequest request)
+    public void Validate(InvestmentRequest? request)
     {
         if (request == null)
             throw new ArgumentNullException(nameof(request), "Os dados de entrada não foram informados");
