@@ -21,8 +21,8 @@ export class InvestmentCalculatorComponent {
   calculateInvestment() {
 
     
-    if (this.investmentRequest.initialValue <= 0 || this.investmentRequest.months <= 0) {
-      this.errorMessage = 'Todos os campos são obrigatórios e devem ser maiores que zero.';
+    if (this.investmentRequest.initialValue == null || this.investmentRequest.months == null) {
+      this.errorMessage = 'Todos os campos sao obrigatarios e devem ser maiores que zero.';
       this.investmentResult = undefined;
       return;
     }
