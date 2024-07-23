@@ -22,6 +22,7 @@
             <br><br>
             <td>
               <button type="submit">Calcular</button>
+              <button type="button" (click)="resetForm()">Reset</button>
             </td>            
           </tr>      
       </form>
@@ -30,6 +31,9 @@
         <p>Status: {{ investmentResult.Result }}</p> 
         <p>Valor Bruto: {{ investmentResult.ValorBruto | number:'1.4-4' }}</p>
         <p>Valor Líquido: {{ investmentResult.ValorLiquido | number:'1.4-4' }}</p>
+      </div>
+      <div *ngIf="errorMessage" class="error-message">
+        <p>{{ errorMessage }}</p>
       </div>
   </mat-card-content>
 </mat-card>  
