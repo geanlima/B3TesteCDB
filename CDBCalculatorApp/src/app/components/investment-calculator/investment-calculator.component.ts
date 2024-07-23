@@ -22,7 +22,7 @@ export class InvestmentCalculatorComponent {
 
     
     if (this.investmentRequest.initialValue <= 0 || this.investmentRequest.months <= 0) {
-      this.errorMessage = 'Todos os campos são obrigatórios e devem ser maiores que zero.';
+      this.errorMessage = 'Todos os campos s�o obrigat�rios e devem ser maiores que zero.';
       this.investmentResult = undefined;
       return;
     }
